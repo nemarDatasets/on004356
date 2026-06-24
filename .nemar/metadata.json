@@ -1,34 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on004356",
-  "source": "openneuro",
-  "source_id": "ds004356",
+  "pipeline_stage": "validated",
   "title": "Subcortical responses to music and speech are alike while cortical responses diverge",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tong Shan": {},
     "Madeline S. Cappelloni": {},
     "Ross K. Maddox": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004356.v2.2.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41598-023-50438-0",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004356",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004356",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "the Schmitt Program in Neuroscience"
+    },
+    {
+      "funder_name": "University of Rochester",
+      "award_title": "Schmitt Program in Neuroscience"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".wav"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 22 healthy young adults collected during passive listening to music and speech stimuli. The study employs deconvolution methods to derive auditory brainstem responses (ABR) from continuous naturalistic stimuli across multiple genres and speech types. The dataset includes raw EEG data in BrainVision format, stimulus files, and detailed event annotations, supporting investigation of subcortical versus cortical auditory processing differences between music and speech.",
+  "methods_description": "EEG recordings were acquired from 24 subjects (22 included in analysis) using a BrainVision system at 48 kHz sampling rate. The experimental protocol consisted of two phases: Phase 1 presented ten 1-minute click trials for ABR calibration; Phase 2 presented 12-second stimulus clips (6 music genres and 6 speech types) with 40 trials per type in randomized order, separated by 0.5-second pauses. Stimuli were delivered at 65 dB SPL through ER-2 insert earphones in a sound-isolated booth. Trigger codes marked stimulus onsets and types for subsequent analysis.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory brainstem response"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "deconvolution"
+    },
+    {
+      "term": "subcortical auditory processing"
+    }
+  ],
+  "source_hash": "4f7027bd3091ea65300612e3427807fecfa9866a75415630fef00ca6f9a30092"
 }
