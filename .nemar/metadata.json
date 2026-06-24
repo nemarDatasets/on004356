@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Subcortical responses to music and speech are alike while cortical responses diverge",
-  "description": "This dataset comprises Auditory Brainstem Response (ABR) recordings from 22 healthy young adults (ages 18-40) obtained during continuous presentation of music and speech stimuli. Using a deconvolution method applied to EEG data collected in 2021, the study investigates subcortical and cortical neural responses to different acoustic categories. The dataset includes raw EEG recordings in BrainVision format, stimulus files, and detailed event metadata enabling analysis of neural differentiation between music and speech processing.",
-  "methods_description": "EEG recordings were conducted in a sound-isolating booth using a 64-channel BrainVision system. Stimuli (music and speech clips, 12 seconds each; click trains, 1 minute) were presented at 65 dB SPL through ER-2 insert earphones at 48 kHz sampling rate. The experiment consisted of two phases: an initial click phase (10 trials) followed by a main phase with 40 trials each of six music genres and six speech types, with 0.5 s inter-trial intervals. Trigger codes marked stimulus onsets and types for subsequent deconvolution analysis.",
+  "description": "This dataset comprises Auditory Brainstem Response (ABR) recordings from 22 healthy young adults (ages 22.7 ± 5.1 years) obtained during continuous presentation of music and speech stimuli. Using a deconvolution method applied to EEG data collected from June to August 2021, the study investigates subcortical and cortical neural responses to different acoustic categories. The dataset includes raw EEG recordings in BrainVision format, stimulus files, and detailed event metadata enabling analysis of neural differentiation between music and speech processing. Two subjects (014 and 021) were excluded due to self-withdrawal and technical data collection issues, respectively.",
+  "methods_description": "EEG recordings were collected from subjects seated in a sound-isolating booth using a BrainVision system. The experimental protocol consisted of two phases: Phase 1 involved ten 1-minute trials of click stimuli; Phase 2 presented 12-second clips from 12 stimulus types (6 music genres and 6 speech types) with 40 trials per type in randomized order, separated by 0.5-second pauses. Stimuli were delivered at 65 dB SPL through ER-2 insert earphones at 48 kHz sampling rate. Trigger codes marked stimulus onsets and types, with detailed trial information recorded in event files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,10 +28,7 @@
       "term": "deconvolution"
     },
     {
-      "term": "subcortical processing"
-    },
-    {
-      "term": "cortical processing"
+      "term": "subcortical auditory processing"
     }
   ],
   "related_identifiers": [
@@ -61,8 +58,7 @@
       "funder_name": "the Schmitt Program in Neuroscience"
     },
     {
-      "funder_name": "University of Rochester",
-      "award_title": "Schmitt Program in Neuroscience"
+      "funder_name": "Schmitt Program in Neuroscience"
     }
   ],
   "resource_type_general": "Dataset",
