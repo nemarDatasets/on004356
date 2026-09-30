@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Subcortical responses to music and speech are alike while cortical responses diverge",
-  "description": "This dataset comprises Auditory Brainstem Response (ABR) recordings from 22 healthy young adults (ages 22.7 ± 5.1 years) obtained during continuous presentation of music and speech stimuli. Using a deconvolution method applied to EEG data collected from June to August 2021, the study investigates subcortical and cortical neural responses to different acoustic categories. The dataset includes raw EEG recordings in BrainVision format, stimulus files, and detailed event metadata enabling analysis of neural differentiation between music and speech processing. Two subjects (014 and 021) were excluded due to self-withdrawal and technical data collection issues, respectively.",
-  "methods_description": "EEG recordings were collected from subjects seated in a sound-isolating booth using a BrainVision system. The experimental protocol consisted of two phases: Phase 1 involved ten 1-minute trials of click stimuli; Phase 2 presented 12-second clips from 12 stimulus types (6 music genres and 6 speech types) with 40 trials per type in randomized order, separated by 0.5-second pauses. Stimuli were delivered at 65 dB SPL through ER-2 insert earphones at 48 kHz sampling rate. Trigger codes marked stimulus onsets and types, with detailed trial information recorded in event files.",
+  "description": "EEG recordings from 22 analyzed normal-hearing adults (24 enrolled) listening to clicks, music, and speech, collected to derive auditory brainstem responses (ABR) from continuous natural stimuli by deconvolution. The dataset compares subcortical and cortical responses to six music genres and six speech types. Raw BrainVision EEG files, event annotations, and the audio stimuli are included.",
+  "methods_description": "Participants sat in a sound-isolating booth and heard stimuli through ER-2 insert earphones at 65 dB SPL on average. Phase one presented ten one-minute click trials. Phase two presented 12 s clips of 12 stimulus types (six music genres, six speech types), 40 trials each in shuffled order with 0.5 s pauses. EEG was recorded in BrainVision format, and stimulus presentation was controlled with expyfun.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,23 +19,25 @@
       "term": "auditory brainstem response"
     },
     {
-      "term": "music perception"
+      "term": "music"
     },
     {
-      "term": "speech perception"
+      "term": "speech"
     },
     {
       "term": "deconvolution"
     },
     {
-      "term": "subcortical auditory processing"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41598-023-50438-0",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004356",
@@ -43,14 +45,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004356",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004356.v2.2.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004356",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -67,7 +69,7 @@
     "eeg"
   ],
   "sizes": [
-    "228.8 GB (563 files)"
+    "213 GB (563 files)"
   ],
   "formats": [
     ".eeg",
